@@ -1375,7 +1375,7 @@ const App = () => {
         </footer>
       </div>
 
-      <div className={`fixed bottom-8 left-1/2 -translate-x-1/2 flex items-center gap-3 px-5 py-4 rounded-[3rem] z-[200] shadow-[0_20px_60px_rgba(0,0,0,0.15)] border w-[90%] max-w-sm justify-between transition-colors duration-500 ${isNightMode ? 'bg-stone-900/90 backdrop-blur-2xl border-stone-800' : 'bg-white/90 backdrop-blur-2xl border-blue-50'}`}>
+      <div className={fixed bottom-6 left-1/2 -translate-x-1/2 z-[999] flex items-center gap-3 px-5 py-4 rounded-[3rem] shadow-[0_20px_60px_rgba(0,0,0,0.15)] border w-[90%] max-w-sm justify-between transition-colors duration-500 ${isNightMode ? &#39;bg-stone-900/90 backdrop-blur-2xl border-stone-800&#39; : &#39;bg-white/90 backdrop-blur-2xl border-blue-50&#39;}}>
         {[
           { id: 'day1', num: '1', label: 'D1' },
           { id: 'day2', num: '2', label: 'D2' },
